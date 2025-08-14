@@ -1,19 +1,19 @@
 {
-  "url": "https://seniorssavetoday.com/dSL2kxyC?keyword=mediago&cost=0.0054&external_id=cklr9v00mjakn7sx&creative_id=24225479&ad_campaign_id=3789012&source=00373842&adt=Seniors+Born+1939-1969+Receive+11+Benefits+This+Month+If+They+Ask&aan=Seniors Born 1939-1969 Receive 11 Benefits This Month If They Ask&cn=SST-Listicle_USAmt_SSO&bts=1755158026&pubid=${PUBLISHER_ID}&pubn=RevContent&cid=${CONTENT_ID}&cnm=article&sub_id_9={subid}&sub_id_13=MG",
-  "timestamp": "2025-08-14 15:55:16",
+  "url": "https://www.nerdwallet.com/m/banking/standout-online-savings-accounts-7?utm_source=mediago&utm_medium=ntv&utm_campaign=bk_mktg_paid_050725_maxcv_m_mg-nonmsn&utm_content=Grow+Your+Savings+in+2025+with+a+High+Yield+Savings+Account&utm_term=23544984&tracking_id=ei5m743he0qm5qlv",
+  "timestamp": "2025-08-14 15:35:19",
   "capture_method": "realtime_snapshot_v2",
-  "total_duration": 90.12203907966614,
-  "resources_discovered": 224,
-  "resources_downloaded": 13,
-  "download_total_size": 1745871,
-  "network_requests": 224,
-  "failed_requests": 19,
-  "console_messages": 189,
-  "html_size": 138990,
-  "download_success_rate": 5.803571428571429,
+  "total_duration": 128.57209968566895,
+  "resources_discovered": 190,
+  "resources_downloaded": 102,
+  "download_total_size": 5086639,
+  "network_requests": 190,
+  "failed_requests": 12,
+  "console_messages": 29,
+  "html_size": 1207612,
+  "download_success_rate": 53.68421052631579,
   "realtime_features": {
-    "path_mappings": 13,
-    "immediate_downloads": 13,
+    "path_mappings": 102,
+    "immediate_downloads": 102,
     "filter_tracking_pixels": true
   }
 }

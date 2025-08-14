@@ -1,0 +1,2 @@
+import"https://accounts.google.com/gsi/client";(function(){try{var e=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},d=new Error().stack;d&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[d]="f4a81140-4da1-42b3-a28c-ea9eefd0fb65",e._sentryDebugIdIdentifier="sentry-dbid-f4a81140-4da1-42b3-a28c-ea9eefd0fb65")}catch{}})();
+//# sourceMappingURL=hoisted.VAtkgk4p.js.map

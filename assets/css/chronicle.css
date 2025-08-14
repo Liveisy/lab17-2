@@ -1,0 +1,376 @@
+/* --- Chronicle Roman --- */
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Roman-Pro--critical.5b52a9d23f.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Roman-Pro--critical.5eeeeee4aa.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Roman-Pro--full.145b81b68f.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Roman-Pro--full.16256b63bd.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Chronicle Semibold --- */
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Semibold-Pro--critical.73329ed4d0.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Semibold-Pro--critical.066ee2fd65.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Semibold-Pro--full.34536bdcd0.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Semibold-Pro--full.b8328404cf.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-SemiboldItalic-Pro--critical.912835b8d9.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-SemiboldItalic-Pro--critical.03ced9710d.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-SemiboldItalic-Pro--full.3592eb2c36.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-SemiboldItalic-Pro--full.20f60ea7a7.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- Chronicle Semibold as Bold --- */
+/*
+  This was added to instruct browsers to use these font files for
+  `font-weight: bold;` instead of using their own calculations.
+*/
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Semibold-Pro--critical.73329ed4d0.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Semibold-Pro--critical.066ee2fd65.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Semibold-Pro--full.34536bdcd0.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-Semibold-Pro--full.b8328404cf.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-SemiboldItalic-Pro--critical.912835b8d9.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-SemiboldItalic-Pro--critical.03ced9710d.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-SemiboldItalic-Pro--full.3592eb2c36.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleTextG2-SemiboldItalic-Pro--full.20f60ea7a7.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- ChronicleDisplay-Roman --- */
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Roman--critical.835fdb1566.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Roman--critical.a525ed50b5.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Roman--full.12c090e2b2.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Roman--full.9636492632.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Italic--critical.745e382cb6.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Italic--critical.dfc873a680.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Italic--full.2d1d444f34.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Italic--full.79199e15cb.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- ChronicleDisplay-Semibold --- */
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Semibold--critical.2c31edcaf3.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Semibold--critical.323b9c2a39.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Semibold--full.cfc19ea759.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Semibold--full.9729df34be.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-SemiboldItalic--critical.2932620355.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-SemiboldItalic--critical.27a6a03936.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-SemiboldItalic--full.c0728e7e04.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-SemiboldItalic--full.57558b2525.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- ChronicleDisplay Semibold as Bold --- */
+/*
+  This was added to instruct browsers to use these font files for
+  `font-weight: bold;` instead of using their own calculations.
+*/
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Semibold--critical.2c31edcaf3.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Semibold--critical.323b9c2a39.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Semibold--full.cfc19ea759.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-Semibold--full.9729df34be.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-SemiboldItalic--critical.2932620355.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-SemiboldItalic--critical.27a6a03936.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-SemiboldItalic--full.c0728e7e04.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/ChronicleDisplay-SemiboldItalic--full.57558b2525.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

@@ -1,0 +1,489 @@
+/* --- Gotham Book --- */
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.fdbad282be.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.f0e7d7e860.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.a4076b3a82.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.42724694dc.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Gotham Book Italic --- */
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--critical.fe38362a8d.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--critical.7335ad7ced.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--full.a3ec3a1b00.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--full.4acbe39a07.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- Gotham Bold --- */
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--critical.dcf83fb890.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--critical.a9df3f3ed7.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--full.c038114ea7.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--full.15f207a438.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Gotham Bold Italic --- */
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-BoldItalic--critical.0d9bfb0a26.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-BoldItalic--critical.527f47ab26.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-BoldItalic--full.f3fde13b16.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-BoldItalic--full.031687710f.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/**
+ * Legacy fonts defined to not break backwards compatibility
+ * but could ideally be removed at some point
+ */
+
+/* --- Gotham Bold @ 500--- */
+/* Backwards compatibility since Gotham Medium previously used to map to font-weight: 500 */
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--critical.dcf83fb890.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--critical.a9df3f3ed7.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--full.c038114ea7.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--full.15f207a438.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.fdbad282be.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.f0e7d7e860.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.a4076b3a82.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.42724694dc.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Gotham Book --- */
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.fdbad282be.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.f0e7d7e860.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.a4076b3a82.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.42724694dc.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Gotham Book Italic --- */
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--critical.fe38362a8d.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--critical.7335ad7ced.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--full.a3ec3a1b00.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--full.4acbe39a07.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- Gotham Medium --- */
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--critical.ee5c613487.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--critical.cac746a333.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--full.7a6c05c892.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--full.8eeef1bca6.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Gotham Bold --- */
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--critical.dcf83fb890.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--critical.a9df3f3ed7.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--full.c038114ea7.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Bold--full.15f207a438.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/**
+ * Gotham Body family.
+ *
+ * This family includes our one, lonely ScreenSmart font (400 regular) as well
+ * as all of the display fonts EXCEPT 400 regular. To be used for body text.
+ *
+ * If we buy more ScreenSmart faces, they should be placed here.
+ */
+
+/* --- Gotham Book --- */
+@font-face {
+  font-family: 'GothamBody';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.fdbad282be.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.f0e7d7e860.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamBody';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.a4076b3a82.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.42724694dc.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Gotham Book Smart Screen(?) --- */
+@font-face {
+  font-family: 'GothamBody';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.fdbad282be.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--critical.f0e7d7e860.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamBody';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.a4076b3a82.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Book--full.42724694dc.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Gotham Book Italic --- */
+@font-face {
+  font-family: 'GothamBody';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--critical.fe38362a8d.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--critical.7335ad7ced.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamBody';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--full.a3ec3a1b00.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-BookItalic--full.4acbe39a07.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- Gotham Bold --- */
+@font-face {
+  font-family: 'GothamBody';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--critical.ee5c613487.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--critical.cac746a333.woff)
+      format('woff');
+  unicode-range: U+00-A0, U+A9, U+AE, U+B2-B3, U+B7, U+B9, U+BB, U+BD, U+200B,
+    U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+2120, U+2122,
+    U+25B6, U+2696, U+2713, U+272D, U+1F000-1FFFF, U+A732, U+A733, U+00C6,
+    U+00E6, U+A734, U+A735, U+A736, U+A737, U+A738, U+A739, U+A73A, U+A73B,
+    U+A73C, U+A73D, U+1F670, U+FB00, U+FB03, U+FB04, U+FB01, U+FB02, U+0152,
+    U+0153, U+A74E, U+A74F, U+1E9E, U+00DF, U+FB06, U+FB05, U+A728, U+A729,
+    U+1D6B, U+A760, U+A761;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamBody';
+  src: url(https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--full.7a6c05c892.woff2)
+      format('woff2'),
+    url(https://www.nerdwallet.com/cdn/fonts/Gotham-Medium--full.8eeef1bca6.woff)
+      format('woff');
+  unicode-range: U+A1-A8, U+AA-AD, U+AF-B1, U+B4-B6, U+B8, U+BA, U+BC, U+BE-200A,
+    U+200C-2012, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-211F,
+    U+2121, U+2123-25B5, U+25B7-2695, U+2697-2712, U+2714-272C, U+272E-1EFFF,
+    U+20000-FFFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

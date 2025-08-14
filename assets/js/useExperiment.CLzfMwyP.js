@@ -1,0 +1,9 @@
+import{i as D}from"./_baseFor.Bzwhonox.js";import{o as $,r as q}from"./objectSpread2.Cp7eGu5m.js";import{s as S}from"./suspense-context.D2_S7LoI.js";import{q as T}from"./queries.SDt1FY47.js";(function(){try{var r=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},e=new Error().stack;e&&(r._sentryDebugIds=r._sentryDebugIds||{},r._sentryDebugIds[e]="63ef7700-db3d-4ebb-2364-5b7f8ffaef7a",r._sentryDebugIdIdentifier="sentry-dbid-63ef7700-db3d-4ebb-2364-5b7f8ffaef7a")}catch{}})();var p={},h=D.default;Object.defineProperty(p,"__esModule",{value:!0});var C=p.default=void 0,b=h($),A=q,Q=S,V=T,j=function(e){var t,a=e.testName,l=e.userAttributes,y=l===void 0?{}:l,m=e.userIdentifierType,o=m===void 0?"deviceId":m,i=e.vendor,v=e.options,c=v===void 0?{}:v;if(o!=="deviceId"&&o!=="anonymousId")throw Error(`
+    Invalid userIdentifierType for the experiment "`.concat(a,`".
+    userIdentifierType must be "deviceId" or "anonymousId".
+    `));if(i!==void 0&&i!=="absmartly"&&i!=="optimizely")throw Error(`
+    Invalid vendor for the experiment "`.concat(a,`".
+    vendor must be "absmartly" or "optimizely",
+    if not supplied it will default to "optimizely".
+    `));var x=(0,A.useContext)(Q.SuspenseContext),I=x.maybeUseSuspenseQuery,s=I(V.ExperimentQuery,(0,b.default)((0,b.default)({},c),{},{variables:{testName:a,userAttributes:y,uidType:o,vendor:i},errorPolicy:"all"})),n=s.loading,d=s.data,u=s.error;if(n)return{loading:n};if(u)return{loading:n,error:u};var _=d==null||(t=d.experimentDecisions)===null||t===void 0?void 0:t[0],f=_||{},g=f.experimentName,E=f.assignedVariantName,N=f.modelExecutionIds,w=E||"control";return{loading:n,error:u,experimentName:g,assignedVariantName:w,modelExecutionIds:N}},z=j;C=p.default=z;export{C as d};
+//# sourceMappingURL=useExperiment.CLzfMwyP.js.map
